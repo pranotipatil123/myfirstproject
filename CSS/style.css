@@ -1,28 +1,86 @@
-d#a{
-    width:300px;
-    height:200px;
-    background-color:green
-} 
+#a {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 12px;
+    border-width: 12px 34px;
+    border-color: aqua;
+    border-width: 12px 34px 6px 50px;
+    float:left;
+}
 
-#b{
-    width:500px;
-    height:200px;
-    background-color:violet;
-} 
-#c{
-    width:300px;
-    height:400px;
-    background-color: beige;
+#b {
+    height: 300px;
+    width: 300px;
+    background-color: red;
 }
-.PRANOTI{
-    background-color: blue!important;
+
+#c {
+    height: 500px;
+    width: 300px;
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-left: 500px;
+    padding-top: 50px;
+    padding-left: 100px;
+    float:left;
 }
-.round{
-    border-radius:23px;
+
+#d {
+    height: 200px;
+    width: 300px;
+    background-color: brown;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+    border: solid;
+    border-width: 60px;
+    border-width: 12px 30px 60px 120px;
+    border-left-color: blanchedalmond;
+    border-right-color: aqua;
 }
-.rotate{
-    transform: rotate(45deg);
+
+#e {
+    height: 200px;
+    width: 300px;
+    background-color: purple;
+
 }
-.norotate{
-    transform:rotate(0deg)
+#f {
+    height: 200px;
+    width: 300px;
+    background-color:grey;
+    float:left;
+    
+
+}
+
+
+.violet {
+    background-color: violet !important;
+}
+
+.round {
+    border-radius: 23px 45px;
+    border-radius: 23px 45px 12 px 50px;
+}
+
+.rotate {
+    transform: rotate(35deg);
+}
+
+.norotate {
+    transform: norotate(0deg);
+}
+.heading{
+    text-align: center;
+}
+.box{
+    display:bolck;
+    float:left;
+    width:20%;
 }
